@@ -1,4 +1,4 @@
-## What is Kotlin?
+# What is Kotlin?
 
 It's a statically typed, high level language used mainly for Android development. It also has type inference. 
 The language fully interoperates with Java,  meaning you can basically have Java code in a Kotlin file, and you can
@@ -9,7 +9,7 @@ on writing functional code, and spend more time thinking about how to make the c
 Android dev, is that the language is 'native' to the Android operating system, meaning Kotlin code can run on Android devices without any 
 intermediary layers.
 
-# Static typing
+## Static typing
 
 In a statically typed language, you have to generally declare the type of each variable. The types of variables are also generally not allowed 
 to change in the program, so once you declare a variable as a specific type, the variable's type cannot change after this declaration. Kotlin is a 

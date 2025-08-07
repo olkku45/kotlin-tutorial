@@ -1,4 +1,4 @@
-## A tutorial for the programming language Kotlin
+# A tutorial for the programming language Kotlin
 
 This is a Kotlin programming tutorial made as a learning project. Now, before anything else, I'm going to assume you have learned the
 basics of programming in some other language, so: variables, loops, functions, conditionals and collections. I'm going to go less in depth about these 
@@ -8,4 +8,4 @@ make remarks about how some things are different compared to Python. The reason 
 have done programming using it, and also since this is a learning project. This tutorial includes exercises that I recommend you do, but they're not 
 mandatory, and I have no way of checking if you have actually done them. Do them in your code editor of choice.
 
-# List of contents
+## List of contents
