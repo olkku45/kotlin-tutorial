@@ -16,9 +16,9 @@ have a main function inside your program, the compiler will throw an error your 
 
 ```kotlin
 fun main() {
-
+    
 }
-```. 
+```
 
 So, functions are defined with the 'fun'-keyword, as you can see. Very fun! You have to put parentheses after the function name in case of any parameters,
 and the scope of the function, or the block that the function defines, is marked by curly braces. Let's print our 'Hello world!' now, and that is done with 
@@ -28,6 +28,7 @@ the built-in println()-function, which is equivalent to Python's print() for ins
 fun main() {
     println("Hello world!")
 }
+```
 
 Run the program with the green triangle button at the top, and you should see 'Hello world!' printed out in the terminal. You have officially 
 entered the world of Kotlin!
