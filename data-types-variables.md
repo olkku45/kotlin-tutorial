@@ -98,7 +98,7 @@ By the way, in Kotlin error messages, when there is a number, like ":2:29", the 
 the second signifies the character index on the line where the error occurs. 
 
 **2. Write a program, that stores your current name, age, and country you live in. Then, let's say your birthday is today, and you need to update your age, 
-so update your age after initially declaring your age. Then, print out the variables. **
+so update your age after initially declaring your age. Then, print out the variables.**
 
 **3. Print as many digits of pi as you can remember, without looking anything up.**
 
