@@ -92,6 +92,7 @@ fun main( {
     stockValue = 32.55
     println(stocValue)
 }
+```
 
 By the way, in Kotlin error messages, when there is a number, like ":2:29", the first number signifies the line of code the error appears on, and 
 the second signifies the character index on the line where the error occurs. 
@@ -111,6 +112,7 @@ fun main() {
 	stockValue = 32.55
 	println(stockValue)
 }
+```
 
 2: 
 
@@ -124,6 +126,7 @@ fun main() {
 	
 	println(name, age, homeCountry)
 }
+```
 
 3: 
 
@@ -132,3 +135,4 @@ fun main() {
     val pi = 3.14159
 	println(pi)
 }
+```
