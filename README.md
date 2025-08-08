@@ -9,3 +9,7 @@ have done programming using it, and also since this is a learning project. This 
 mandatory, and I have no way of checking if you have actually done them. Do them in your code editor of choice.
 
 ## List of contents
+
+1. [What is Kotlin](what-is-kotlin.md)
+2. [First Kotlin program](first-kotlin-program.md)
+3. [Data types and variables](data-types-variables.md)
