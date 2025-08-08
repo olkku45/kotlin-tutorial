@@ -6,10 +6,9 @@ recommends to do it; by installing the IntelliJ IDEA IDE (Integrated Development
 on the website, and let's create a new Kotlin project, not from the command line, if you're used to doing it that way, like I have, but from the IDE itself. 
 
 Click 'New Project', choose Kotlin from the left, name the project 'hello-world', and set the location to wherever you want. Don't create a git repository, and
-turn off "Add sample code". This would add some sample code, of course, but we don't want that. Click 'Create'. Now you should have a Kotlin file with
-everything you need to get the program running. If we just created a .kt-file from the command line and nothing else, the program wouldn't run, since you
-wouldn't have the needed dependencies. If you don't have a .kt-file in the .src-folder for some reason (as was the case for me), then you can go ahead 
-and create that file on the command line, or however you'd like. Name it hello-world.kt, or main.kt, whatever you like. 
+keep on "Add sample code", since this creates the Kotlin file for us.
+Click 'Create'. Now you should have a Kotlin file with everything you need to get the program running. 
+You can then go ahead and just remove all the sample code inside the file.
 
 Then, inside the file, the first thing we want to do is create a main function. The program's execution starts in the main function in Kotlin, and if you don't 
 have a main function inside your program, the compiler will throw an error your way. So let's do that now:
@@ -39,3 +38,16 @@ You may have noticed that I indented the println-command by four spaces, and tha
 when it comes to the curly braces, you type the opening brace on the same line as the statement that defines the block of code, at the end of the line, 
 formatting it so that there is a space between the curly brace and the statement. Then, the closing curly brace comes on its own, separate line, 
 indented so that it's horizontally aligned with the opening statement. You can see this in the above hello world-example.  
+
+## More with printing
+
+Let's also try printing something other than a string. Kotlin supports integer and float values, so let's try those out, strings aren't the only data type we have.
+
+```kotlin
+fun main() {
+    println("Hello world!")
+    println(12345)
+	println(3.1415)
+}
+
+By the way: integers and floats are divided into different types, and we will get to that in the data types section of the tutorial.
